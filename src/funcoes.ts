@@ -4,7 +4,7 @@ function calculaArea(base: number, altura: number): number {
 }
 
 //tbm funciona para uma arrow function. Aqui apenas com uma linha a gente reescreve o código acima.
-const calculaArea2 = (base: number, altura: number): number => base
+const calculaArea2 = (base: number, altura: number): number => base * altura
 
 
 //podemos tbm tipar o array com rest. quando temos um console.log usamos o void(que significa vazio) para deixar explicito.
